@@ -14,9 +14,11 @@ $ npm i --save react-kakao-button
 
 ```javascript
 import KakaoButton from 'react-kakao-button'
+```
 
 3. Use `KakaoButton` component
 
+```javascript
 <KakaoButton
   disabled // can also be written as disabled={true} for clarity
   onClick={() => { console.log('Kakao button clicked') }}
