@@ -20,7 +20,7 @@ import KakaoButton from 'react-kakao-button'
 
 ```javascript
 <KakaoButton
-  disabled // can also be written as disabled={true} for clarity
+  disabled={false} // can also be written as disabled={true} for clarity
   onClick={() => { console.log('Kakao button clicked') }}
 />
 ```
